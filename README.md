@@ -1,5 +1,5 @@
 # Anime Finder
-
+LINK YOUTUBE : https://youtu.be/xDLn0O7rMCQ
 Website pencarian anime modern berbasis API menggunakan **Vanilla JavaScript**.  
 Project ini menampilkan data anime secara realtime menggunakan API publik dari Jikan.
 
