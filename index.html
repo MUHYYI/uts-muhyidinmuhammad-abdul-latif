@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeVerse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<aside class="sidebar">
+    <h2>AnimeVerse</h2>
+    <button class="nav-btn" data-type="">All</button>
+    <button class="nav-btn" data-type="tv">TV</button>
+    <button class="nav-btn" data-type="movie">Movie</button>
+    <button class="nav-btn" data-type="ova">OVA</button>
+</aside>
+
+<main class="main-content">
+
+<header class="hero" id="heroBanner">
+    <div class="overlay">
+        <h1 id="heroTitle">Loading...</h1>
+        <p id="heroSynopsis"></p>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search anime...">
+            <button id="searchBtn">Search</button>
+        </div>
+    </div>
+</header>
+
+<section>
+    <h2>Anime Collection</h2>
+    <div id="errorMessage"></div>
+    <div class="anime-grid" id="animeContainer"></div>
+</section>
+
+</main>
+
+<div class="modal" id="animeModal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
